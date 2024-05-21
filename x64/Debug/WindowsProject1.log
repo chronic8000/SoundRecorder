@@ -1,0 +1,19 @@
+﻿  WindowsProject1.cpp
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(103,26): warning C4244: 'return': conversion from 'LRESULT' to 'DWORD', possible loss of data
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(138,35): warning C4312: 'type cast': conversion from 'int' to 'HMODULE' of greater size
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(171,21): error C2664: 'int TranslateAcceleratorW(HWND,HACCEL,LPMSG)': cannot convert argument 2 from 'HANDLE' to 'HACCEL'
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(171,52): message : Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7204,1): message : see declaration of 'TranslateAcceleratorW'
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(171,21): message : while trying to match the argument list '(HWND, HANDLE, MSG *)'
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(248,16): error C3861: 'SoundRecCommand': identifier not found
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(251,38): warning C4244: 'argument': conversion from 'LPARAM' to 'LONG', possible loss of data
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(263,9): error C3861: 'Cls_OnInitMenu': identifier not found
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(273,9): error C2065: 'SndRec_OnDrawItem': undeclared identifier
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(278,37): warning C4244: 'argument': conversion from 'UINT_PTR' to 'UINT', possible loss of data
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(284,16): error C3861: 'Cls_OnHScroll': identifier not found
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(342,25): warning C4244: 'return': conversion from 'INT_PTR' to 'BOOL', possible loss of data
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(429,9): error C3861: 'doDrop': identifier not found
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(473,28): error C2440: '=': cannot convert from 'HWAVEOUT' to 'HWAVE'
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(473,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(482,28): error C2440: '=': cannot convert from 'HWAVEIN' to 'HWAVE'
+C:\Users\chron\source\repos\WindowsProject1\WindowsProject1.cpp(482,28): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
